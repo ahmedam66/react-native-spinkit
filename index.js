@@ -55,6 +55,7 @@ class Spinkit extends React.Component {
 
 		return (
 			<RNSpinkit
+				testID={this.props.testID}
 				type={String(this.props.type)}
 				size={parseInt(this.props.size)}
 				color={colorNumber}
